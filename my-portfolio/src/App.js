@@ -1,5 +1,5 @@
 import Topbar from "./components/topbar/Topbar";
-import About from "./components/aboutme/About";
+import Intro from "./components/intro/Intro";
 import Works from "./components/works/Works"; 
 import Media from "./components/media/Media";
 import Reference from "./components/references/References";
@@ -11,7 +11,7 @@ function App() {
     <div className ="app">
     <Topbar/>
     <div className="sections">
-    <About/>
+    <Intro/>
     <Works/>
     <Media/> 
     <Reference/>

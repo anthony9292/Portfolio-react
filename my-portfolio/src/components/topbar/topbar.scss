@@ -1,9 +1,13 @@
+@import "../../global.scss";
+
+
 .topbar{ 
-    background-color: rgb(8, 8, 41);
+    background-color: $maincolor;
     width: 100%;
     height: 70px;
     position: fixed;
     top: 0;
     z-index: 2;
 
+    
 }
