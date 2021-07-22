@@ -1,14 +1,12 @@
 import Topbar from "./components/topbar/Topbar";
-import Intro from "./components/intro/Intro";
-import Works from "./components/works/Works";
+import Intro from "./components/intro/Intro"
+import Works from "./components/works/Works"
 import Media from "./components/media/Media"
-import Reference from "./components/contact/Contact"
+import Contact from "./components/contact/Contact"
 import "./app.scss"
-
 
 import { useState } from "react";
 import Menu from "./components/menu/Menu";
-
 
 
 
@@ -24,7 +22,7 @@ function App() {
      <Intro/>
      <Works/>
      <Media/>
-     <Reference />
+     <Contact/>
    </div>
    </div>
     );

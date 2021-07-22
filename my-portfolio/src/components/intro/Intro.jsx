@@ -1,15 +1,19 @@
 import "./intro.scss"
+import cover from "../assets/cover.png";
 
-export default function intro() {
-  return( 
-     <div className="intro" id="intro">
-       <div class="left"> 
-      <div className="ImgContainer">
-        <img src="assets.cover.png" alt="" />
-       
+export default function Intro() {
+  return (
+         <div className="intro" id="intro">
+               <div className="left">
+                 <div className="imgContainer">
+                  <img src={cover}/>
+                 </div>
+               </div>
+                 <dev className="right"></dev>
+               
 
-      </div>
-</div>
-     </div>
-  );
+         </div>  
+  )
 }
+
+

@@ -1,4 +1,4 @@
-import"./topbar.scss";
+ import"./topbar.scss";
 
 import { PhoneAndroid, Email } from "@material-ui/icons";
 
@@ -7,7 +7,7 @@ import { PhoneAndroid, Email } from "@material-ui/icons";
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left"> 
-                        <a href="#intros" className="logo"> Portfolio.</a> 
+                        <a href="#intro" className="logo"> Portfolio.</a> 
                         <div className="itemContainer">
                             <PhoneAndroid className="icon"/>
                             <span>613-501-4892</span>

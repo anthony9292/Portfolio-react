@@ -1,4 +1,26 @@
-.intro {
- background-color: white;
- display: flex;
-}
+.intro{ 
+    background-color: white;
+    display: flex;
+    
+    .left{
+     flex: 0.5;
+     overflow: hidden;
+
+     imgContainer{
+         width: 1000px;
+         height: 1000px;
+         flood: right;
+     }
+
+    }
+    .right{
+        flex:0.5;
+        position: relative;
+    
+    }
+
+} 
+
+
+
+ 
