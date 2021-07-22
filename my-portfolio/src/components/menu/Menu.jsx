@@ -1,4 +1,5 @@
 import "./menu.scss";
+import Pdf from "../documents/Ndegwa.pdf";
 
 export  default function Menu({ menuOpen, setMenuOpen })  {
     return (
@@ -10,7 +11,8 @@ export  default function Menu({ menuOpen, setMenuOpen })  {
                     <a href="#intro">Home</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#portfolio">portfolio</a>
+                    <a href={Pdf}>Resume</a>
+                   
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#work">Works</a>
