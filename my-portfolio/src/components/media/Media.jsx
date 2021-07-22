@@ -1,9 +1,9 @@
-import "./media.scss"
+import  './media.scss';
 
-export default function Media() {
+   export default function Media() {
     return (
-        <div className="media"> 
-       
+        <div className="media" id="media">
+            
         </div>
-    )
+    );
 }
