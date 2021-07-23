@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://github.com/anthony9292/Portfolio-react",
   "dependencies": {
     "@material-ui/icons": "^4.11.2",
