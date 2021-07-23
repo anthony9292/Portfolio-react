@@ -14,14 +14,11 @@ export  default function Menu({ menuOpen, setMenuOpen })  {
                     <a href={Pdf}>Resume</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#work">Works</a>
+                    <a href="#work">Hub</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#about">About me</a>
                 </li>
-                <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#contact">Contact Info</a>
-                </li> 
             </ul>
             
         </div>

@@ -14,6 +14,7 @@ export default function Work() {
     {
       id: "projects",
       title: "Projects",
+
     },
     {
       id: "network",
@@ -23,6 +24,12 @@ export default function Work() {
       id: "socials",
       title: "Social Hub",
     },
+
+    {
+        id:1 
+    }
+    
+    
   ];
 
   useEffect(() => {
@@ -54,14 +61,16 @@ export default function Work() {
           />
         ))}
       </ul>
-      <div className="container">
+      <div className="container" >
         {data.map((d) => (
-          <div className="item">
-            <img
+          <div className="item"  >
+            <img 
               src={d.img}
               alt=""
-            />
-            <h3>{d.title}</h3>
+             />
+             {/*onClick event to bring in ulr from data.js and display it on new windows*/}
+            <h3 onClick={()=> window.open(d.url, "_blank").focus()}>{d.title}</h3>
+            
           </div>
         ))}
       </div>

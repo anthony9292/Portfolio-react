@@ -1,20 +1,18 @@
 //data of my git hub repository to link to my portfolio page
 
-import surfing from "../src/components/assets/plansurfing.png";
-
 
 export const Projects = [
     {
     id: 1,
     title: "Plan surfing app",
-    img: <img src={surfing} alt=""/>
-    
-      
+    img: "./asset/plansurfing.png", 
+    url: "https://github.com/anthony9292/Plan-Asurfing",
     }, 
     {
      id: 2,
      title: "Cup of Sugar Web app",
-     img:  "./assets/cupfullfruites.jpg",
+     img:  "./asset/cupfullfruites.jpg",
+     url:""
     
      
 
@@ -23,51 +21,62 @@ export const Projects = [
     { 
         id:3,
         title: "tech blog app",
-        img: "./assets/techblog.jpg"
+        img: "./asset/tech.jpg"
     },
+    {  
+        id: 4,
+        title: "Employee hub",
+        img: "./asset/teamgenerator.jpg",
+
+
+    }, 
+
+    {
+        id: 5,
+        title: "fit tracker",
+        img: "./asset/fitness.jpg",
+    },
+
+       
+    {
+        id: 6,
+        title: "budget tracker",
+        img: "./asset/budget.png"
+
+    },
+
+    {
+        id: 7, 
+        title: "HTML Portfolio",
+        img: "./asset/portfolioart.png"
+    }, 
+
+    {
+        id:8, 
+        title: "note maker app",
+        img: "./asset/pink.jpg",
+
+    },
+    { 
+        id:9,
+        title: "ecommerce app",
+        img: "./asset/ecommerce.png"
+
+     },
+
+
 ];
     export const NetworkHub =  [
-        {  
-            id: 1,
-            title: "Employee hub",
-            img: "./assets/teamgenerator.jpg",
+     
 
-        }, 
-
-           {
-               id: 2,
-               title: "fit tracker",
-               img: "./assets/fitness.jpg",
-           },
-
-           {
-               id: 3,
-               title: "budget tracker",
-               img: "./assets/budget.png"
-
-           },
+    
     ];
 
      export const Socials = [
-         {
-             id: 1, 
-             title: "HTML Portfolio",
-             img: "./assets/portfolioart.png"
-         }, 
+       
 
-          {
-              id:2, 
-              title: "note maker app",
-              img: "./assets/quiz.JPG",
-
-          },
-
-          { 
-             id:3,
-             title: "ecommerce app",
-             img: "./assets/ecommerce.png"
-
-          }
+      
+       
      ];
 
 
